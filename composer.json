@@ -1,10 +1,34 @@
 {
+  "name": "hello-oyp/logservice",
+  "description": "logservice",
+  "keywords": [
+    "yii2",
+    "terrytest"
+  ],
+  "homepage": "https://github.com/hello-oyp/logservice",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/hello-oyp/logservice"
+  },
+  "authors": [
+    {
+      "name": "yangping",
+      "email": "794106549@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
   "require": {
+    "php": ">=5.4.0",
     "monolog/monolog": "^1.22"
   },
   "autoload": {
     "psr-4": {
       "Yp\\Log\\": "src/"
     }
+  },
+  "config": {
+    "process-timeout": 1800
   }
 }
+
